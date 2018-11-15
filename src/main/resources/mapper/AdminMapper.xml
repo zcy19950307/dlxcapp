@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dlxcapp.dao.AdminMapper">
+  <resultMap id="BaseResultMap" type="com.dlxcapp.model.Admin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="userid" jdbcType="CHAR" property="userid" />
+    <result column="pwd" jdbcType="CHAR" property="pwd" />
+    <result column="uname" jdbcType="CHAR" property="uname" />
+    <result column="tname" jdbcType="CHAR" property="tname" />
+    <result column="email" jdbcType="CHAR" property="email" />
+    <result column="typeid" jdbcType="SMALLINT" property="typeid" />
+    <result column="logintime" jdbcType="INTEGER" property="logintime" />
+    <result column="loginip" jdbcType="VARCHAR" property="loginip" />
+    <result column="cityid" jdbcType="INTEGER" property="cityid" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dlxcapp.dao.CityMapper">
+  <resultMap id="BaseResultMap" type="com.dlxcapp.model.City">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="cityid" jdbcType="INTEGER" property="cityid" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="provinceid" jdbcType="SMALLINT" property="provinceid" />
+    <result column="areaid" jdbcType="INTEGER" property="areaid" />
+    <result column="cityname" jdbcType="VARCHAR" property="cityname" />
+    <result column="citypy" jdbcType="VARCHAR" property="citypy" />
+    <result column="displayorder" jdbcType="SMALLINT" property="displayorder" />
+    <result column="directory" jdbcType="VARCHAR" property="directory" />
+    <result column="firstletter" jdbcType="VARCHAR" property="firstletter" />
+    <result column="mappoint" jdbcType="VARCHAR" property="mappoint" />
+    <result column="ifhot" jdbcType="INTEGER" property="ifhot" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="keywords" jdbcType="VARCHAR" property="keywords" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+</mapper>
